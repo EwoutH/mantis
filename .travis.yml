@@ -1,9 +1,24 @@
 language: java
 dist: bionic
-jdk: openjdk13
+jdk: 
+ - openjdk8
+ - openjdk9
+ - openjdk10
+ - openjdk11
+ - openjdk12
+ - openjdk13
+ - openjdk-ea
+ - oraclejdk8
+ - oraclejdk9
+ - oraclejdk10
+ - oraclejdk11
+ - oraclejdk12
+ - oraclejdk13
+ - oraclejdk-ea
+ 
 arch:
  - amd64
- - arm64
+# - arm64
 
 install: "./installViaTravis.sh"
 script: "./buildViaTravis.sh"
