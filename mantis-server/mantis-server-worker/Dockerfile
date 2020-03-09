@@ -1,4 +1,4 @@
-FROM mesosphere/mesos-slave:1.3.2
+FROM mesosphere/mesos-slave:1.9.0
 
 MAINTAINER Mantis Developers <mantisd-oss-dev@netflix.com>
 
